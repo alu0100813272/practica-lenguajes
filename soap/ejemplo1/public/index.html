@@ -1,0 +1,21 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<title>Example</title>
+	<script type="text/javascript">
+		fetch('http://localhost:3000/datos.json')
+		.then((res)=>{
+			return res.json();
+		}).then((res)=>{
+			document.getElementById('nombre').value =  res.name;
+			document.getElementById('apellido').value =  res.lastname;
+		})
+	</script>
+</head>
+<body>
+	<div id="read">
+		<input type="txt" id="nombre" value="Cargando...">
+		<input type="txt" id="apellido" value="Cargando...">
+	</div>
+</body>
+</html>
