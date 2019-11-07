@@ -1,7 +1,7 @@
 # practica-lenguajes
 Esta práctica esta realizado para la práctica de: 
-    -Los lenguajes de programación que conozco.  
-    -Estructuras de datos. 
+\n-Los lenguajes de programación que conozco.  
+\n    -Estructuras de datos. 
     -Ver librarías especificas de cada lenguaje. 
     -Formas de programación. 
     -etc.
